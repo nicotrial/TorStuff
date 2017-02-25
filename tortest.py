@@ -1,3 +1,9 @@
+#need to install tor and run with python2
+#apt-get install tor
+#service tor start
+#torsocks curl icanhazip.com
+
+
 import socket
 import socks
 import http.client
